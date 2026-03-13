@@ -1,7 +1,7 @@
 ---
 title: "refactor: Extract token usage tracking into eval/utils shared module"
 type: refactor
-status: active
+status: completed
 date: 2026-03-13
 ---
 

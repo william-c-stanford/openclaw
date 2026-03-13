@@ -123,8 +123,11 @@ Default behavior on Telegram/WhatsApp/Signal/iMessage/Microsoft Teams/Discord/Go
 
 Run `openclaw doctor` to surface risky/misconfigured DM policies.
 
-## Highlights
+## Evaluation
 
+The eval/ directory contains benchmarks for measuring openclaw agent capabilities. See eval/README.md for details on running existing benchmarks and adding new ones.
+
+## Highlights
 - **[Local-first Gateway](https://docs.openclaw.ai/gateway)** — single control plane for sessions, channels, tools, and events.
 - **[Multi-channel inbox](https://docs.openclaw.ai/channels)** — WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, BlueBubbles (iMessage), iMessage (legacy), IRC, Microsoft Teams, Matrix, Feishu, LINE, Mattermost, Nextcloud Talk, Nostr, Synology Chat, Tlon, Twitch, Zalo, Zalo Personal, WebChat, macOS, iOS/Android.
 - **[Multi-agent routing](https://docs.openclaw.ai/gateway/configuration)** — route inbound channels/accounts/peers to isolated agents (workspaces + per-agent sessions).
