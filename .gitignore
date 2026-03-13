@@ -1,4 +1,6 @@
 node_modules
+skills/
+slate.json
 **/node_modules/
 .env
 docker-compose.override.yml
