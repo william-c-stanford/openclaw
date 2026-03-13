@@ -108,7 +108,8 @@ def build_config_from_args(argv: Optional[list[str]] = None) -> Config:
         help="Skip swebench harness evaluation and only run inference.",
     )
     parser.add_argument(
-        "--instance-filter",
+        "--filter",
+        dest="instance_filter",
         default=None,
         help="fnmatch pattern for instance_id selection (for example 'sympy__sympy-*').",
     )

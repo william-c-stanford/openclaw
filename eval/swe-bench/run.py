@@ -4,7 +4,7 @@ SWE-bench Mini evaluation wrapper for openclaw.
 
 Usage:
     python eval/swe-bench/run.py
-    python eval/swe-bench/run.py --instance-filter "sympy__sympy-*"
+    python eval/swe-bench/run.py --filter "sympy__sympy-*"
     python eval/swe-bench/run.py --workers 2 --thinking medium
     python eval/swe-bench/run.py --skip-eval   # inference only
     python eval/swe-bench/run.py --run-id my_test --dry-run
